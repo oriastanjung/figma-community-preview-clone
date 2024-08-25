@@ -49,10 +49,10 @@ const Canvas = ({ bgImage }) => {
   return (
     <div
       id="canvas-container"
-      className="relative mx-auto mt-8 overflow-hidden rounded-3xl bg-zinc-200 w-full h-[40rem]"
+      className="relative cursor-pointer mx-auto mt-8 overflow-hidden rounded-3xl bg-zinc-200 w-full h-[40rem]"
     >
       <TransformWrapper
-        key={`${Math.random(1, 5)}`}
+        key={1}
         ref={transformRef}
         initialScale={initialScale}
         initialPositionX={150}
