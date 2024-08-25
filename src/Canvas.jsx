@@ -52,6 +52,7 @@ const Canvas = ({ bgImage }) => {
       className="relative mx-auto mt-8 overflow-hidden rounded-3xl bg-zinc-200 w-full h-[40rem]"
     >
       <TransformWrapper
+        key={`${Math.random(1, 5)}`}
         ref={transformRef}
         initialScale={initialScale}
         initialPositionX={150}
