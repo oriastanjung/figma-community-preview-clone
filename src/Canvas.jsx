@@ -89,14 +89,14 @@ const Canvas = ({ bgImage }) => {
       {/* Controls */}
       <div className="absolute bottom-4 right-4 flex items-center space-x-4 bg-zinc-800 text-white p-2 rounded shadow-lg">
         <button
-          className="px-2 py-1 rounded hover:bg-zinc-700"
+          className="hidden lg:block px-2 py-1 rounded hover:bg-zinc-700"
           onClick={handleZoomOut}
         >
           -
         </button>
         <span className="text-sm font-medium">{Math.round(zoomLevel)}%</span>
         <button
-          className="px-2 py-1 rounded hover:bg-zinc-700"
+          className="hidden lg:block  px-2 py-1 rounded hover:bg-zinc-700"
           onClick={handleZoomIn}
         >
           +
