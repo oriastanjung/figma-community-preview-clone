@@ -49,7 +49,7 @@ const Canvas = ({ bgImage }) => {
   return (
     <div
       id="canvas-container"
-      className="relative cursor-pointer mx-auto mt-8 overflow-hidden rounded-3xl bg-zinc-200 w-full h-[40rem]"
+      className="relative cursor-grab mx-auto mt-8 overflow-hidden rounded-3xl bg-zinc-200 w-full h-[40rem]"
     >
       <TransformWrapper
         key={1}
